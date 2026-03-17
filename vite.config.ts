@@ -10,5 +10,6 @@ export default defineConfig({
     alias: {
       "@": path.resolve(__dirname, "./src"), // <--- This maps @ to your src folder
     },
+  base: './',
   },
 })
